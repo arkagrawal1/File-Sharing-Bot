@@ -6,12 +6,12 @@
     "file",
     "sharing"
   ],
-  "repository": "",
+  "repository": "erhgfhd",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "rqewf"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
