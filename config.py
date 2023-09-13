@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "28313254"))#
 API_HASH = os.environ.get("API_HASH", "")#09c8a97fe8b643ca22aefceefe37c2a2
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))#-1001639720150
+CHANNEL_ID = (os.environ.get("CHANNEL_ID", ""))#-1001639720150
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))#1486687703
+OWNER_ID = (os.environ.get("OWNER_ID", ""))#1486687703
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")#mongodb+srv://ark:l8fIAa92s6h47xs7@f
 DB_NAME = os.environ.get("DATABASE_NAME", "filebot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))#-1001676466998
+FORCE_SUB_CHANNEL = (os.environ.get("FORCE_SUB_CHANNEL", ""))#-1001676466998
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
